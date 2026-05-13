@@ -44,4 +44,14 @@ public class TestController {
     public Result<Void> testError() {
         return Result.error("这是一个错误测试");
     }
+
+    /**
+     * 测试全局异常处理 - 故意触发异常
+     */
+    @GetMapping("/error-test")
+    public Result<Void> testGlobalException() {
+        // 故意除以0，触发 ArithmeticException
+        int result = 10 / 0;
+        return Result.success();
+    }
 }
