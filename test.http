@@ -1,0 +1,15 @@
+### 测试 JSON 格式化接口
+POST http://localhost:8080/api/text/json/format
+Content-Type: application/json
+
+{
+  "json": "{\"name\":\"张三\",\"age\":18,\"hobbies\":[\"编程\",\"音乐\"]}"
+}
+
+### 测试错误的 JSON
+POST http://localhost:8080/api/text/json/format
+Content-Type: application/json
+
+{
+  "json": "{name:张三,age:18}"
+}
