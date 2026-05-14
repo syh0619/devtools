@@ -71,15 +71,15 @@
 ### 工具模块（插件化设计）
 
 #### Phase 1: 基础工具 (MVP)
-- [ ] **tool-text** (文本工具)
-  - [ ] JSON 格式化/校验
-  - [ ] Base64 编解码
+- [x] **tool-text** (文本工具)
+  - [x] JSON 格式化/校验
+  - [x] Base64 编解码
   - [ ] URL 编解码
   - [ ] HTML 实体编解码
 
-- [ ] **tool-crypto** (加密工具)
-  - [ ] MD5 加密
-  - [ ] SHA 系列
+- [x] **tool-crypto** (加密工具)
+  - [x] MD5 加密
+  - [x] SHA256 加密
   - [ ] AES 加密/解密
   - [ ] 密码生成器
 

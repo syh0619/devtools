@@ -37,3 +37,11 @@ Content-Type: application/json
 {
   "text": "123456"
 }
+
+### SHA256 加密
+POST http://localhost:8080/api/crypto/sha256/encrypt
+Content-Type: application/json
+
+{
+  "text": "123456"
+}
