@@ -13,3 +13,19 @@ Content-Type: application/json
 {
   "json": "{name:张三,age:18}"
 }
+
+### Base64 编码
+POST http://localhost:8080/api/text/base64/encode
+Content-Type: application/json
+
+{
+  "text": "Hello World"
+}
+
+### Base64 解码
+POST http://localhost:8080/api/text/base64/decode
+Content-Type: application/json
+
+{
+  "base64": "SGVsbG8gV29ybGQ="
+}
