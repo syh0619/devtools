@@ -2,7 +2,7 @@
   <div id="app">
     <el-container>
       <el-header>
-        <h1 @click="$router.push('/')" style="cursor: pointer;">开发者工具箱</h1>
+        <h1 @click="goHome" style="cursor: pointer;">开发者工具箱</h1>
       </el-header>
       
       <el-main>
@@ -11,6 +11,16 @@
     </el-container>
   </div>
 </template>
+
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+const goHome = () => {
+  router.push('/')
+}
+</script>
 
 <style>
 #app {
