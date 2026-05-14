@@ -29,3 +29,11 @@ Content-Type: application/json
 {
   "base64": "SGVsbG8gV29ybGQ="
 }
+
+### MD5 加密
+POST http://localhost:8080/api/crypto/md5/encrypt
+Content-Type: application/json
+
+{
+  "text": "123456"
+}
