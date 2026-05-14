@@ -45,3 +45,19 @@ Content-Type: application/json
 {
   "text": "123456"
 }
+
+### URL 编码
+POST http://localhost:8080/api/text/url/encode
+Content-Type: application/json
+
+{
+  "text": "https://example.com/search?q=你好世界"
+}
+
+### URL 解码
+POST http://localhost:8080/api/text/url/decode
+Content-Type: application/json
+
+{
+  "text": "https%3A%2F%2Fexample.com%2Fsearch%3Fq%3D%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C"
+}

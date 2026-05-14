@@ -74,7 +74,7 @@
 - [x] **tool-text** (文本工具)
   - [x] JSON 格式化/校验
   - [x] Base64 编解码
-  - [ ] URL 编解码
+  - [x] URL 编解码
   - [ ] HTML 实体编解码
 
 - [x] **tool-crypto** (加密工具)
