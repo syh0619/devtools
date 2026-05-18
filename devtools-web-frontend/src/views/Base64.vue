@@ -1,7 +1,5 @@
 <template>
-  <div class="base64">
-    <h2>Base64 编解码工具</h2>
-    
+  <div class="tool-page">
     <div class="tabs">
       <el-radio-group v-model="mode">
         <el-radio-button value="encode">编码</el-radio-button>
@@ -80,7 +78,7 @@ const clear = () => {
 </script>
 
 <style scoped>
-.base64 {
+.tool-page {
   padding: 20px;
 }
 

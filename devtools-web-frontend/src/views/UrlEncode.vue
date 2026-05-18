@@ -1,6 +1,5 @@
 <template>
-  <div class="url-encode">
-    <h2>URL 编解码工具</h2>
+  <div class="tool-page">
     
     <div class="tabs">
       <el-radio-group v-model="mode">
@@ -78,7 +77,7 @@ const clear = () => {
 </script>
 
 <style scoped>
-.url-encode {
+.tool-page {
   padding: 20px;
 }
 

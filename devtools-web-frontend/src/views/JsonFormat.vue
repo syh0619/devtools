@@ -1,7 +1,5 @@
 <template>
-  <div class="json-format">
-    <h2>JSON 格式化工具</h2>
-    
+  <div class="tool-page">
     <div class="actions">
       <el-button type="primary" @click="formatJson">格式化</el-button>
       <el-button @click="clear">清空</el-button>
@@ -68,7 +66,7 @@ const clear = () => {
 </script>
 
 <style scoped>
-.json-format {
+.tool-page {
   padding: 20px;
 }
 

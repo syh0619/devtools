@@ -1,6 +1,5 @@
 <template>
-  <div class="sha256">
-    <h2>SHA256 加密工具</h2>
+  <div class="tool-page">
     
     <div class="actions">
       <el-button type="primary" @click="encrypt">加密</el-button>
@@ -68,7 +67,7 @@ const clear = () => {
 </script>
 
 <style scoped>
-.sha256 {
+.tool-page {
   padding: 20px;
 }
 
