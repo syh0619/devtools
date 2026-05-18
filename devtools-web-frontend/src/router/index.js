@@ -15,6 +15,21 @@ const routes = [
         path: '/base64',
         name: 'Base64',
         component: () => import('../views/Base64.vue')
+    },
+    {
+        path: '/url-encode',
+        name: 'UrlEncode',
+        component: () => import('../views/UrlEncode.vue')
+    },
+    {
+        path: '/md5',
+        name: 'Md5',
+        component: () => import('../views/Md5.vue')
+    },
+    {
+        path: '/sha256',
+        name: 'Sha256',
+        component: () => import('../views/Sha256.vue')
     }
 ]
 

@@ -33,7 +33,7 @@ public class TestController {
         data.put("name", "DevTools");
         data.put("version", "1.0.0");
         data.put("description", "开发者工具箱");
-        
+
         return Result.success(data);
     }
 
@@ -48,10 +48,10 @@ public class TestController {
     /**
      * 测试全局异常处理 - 故意触发异常
      */
-    @GetMapping("/error-test")
-    public Result<Void> testGlobalException() {
-        // 故意除以0，触发 ArithmeticException
-        int result = 10 / 0;
-        return Result.success();
-    }
+    // @GetMapping("/error-test")
+    // public Result<Void> testGlobalException() {
+    // // 故意除以0，触发 ArithmeticException
+    // int result = 10 / 0;
+    // return Result.success();
+    // }
 }
